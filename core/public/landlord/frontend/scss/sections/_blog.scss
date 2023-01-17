@@ -1,0 +1,24 @@
+/* blog item */
+
+.blog-item-01{
+    .thumb{
+        margin-bottom: 30px;
+        img{
+            border-radius: 10px;
+        }
+    }
+    .content-wrap{
+        .title{
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .readmore{
+            font-size: 14px;
+            line-height: 16px;
+            color: var(--main-color-two);
+
+        }
+    }
+}

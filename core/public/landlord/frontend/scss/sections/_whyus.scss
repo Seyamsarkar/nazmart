@@ -1,0 +1,20 @@
+/* why choose us section */
+
+.why-choose-us{
+    position: relative;
+    z-index: 0;
+    .bg-text{
+        position: absolute;
+        left: 50%;
+        top: 157px;
+        transform: translate(-50%,-50%);
+        font-size: 350px;
+        font-weight: 700;
+        letter-spacing: 30px;
+        line-height: 270px;
+        color: #f9f9f9;
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+}

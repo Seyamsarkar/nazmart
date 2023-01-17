@@ -1,0 +1,160 @@
+:root {
+    --main-color-one: #FC3C68;
+    --main-color-two: #FF1747;
+    --secondary-color: #FEEBE4;
+    --heading-color: #333333;
+    --paragraph-color: #666666;
+    --bg-light-one: #F2F3F5;
+    --bg-light-two: #EAEAEA;
+
+    --bg-dark-one: #081131;
+    --bg-dark-two: #060C22;
+    --bg-dark-three: #151C2B;
+    --bg-dark-four: #0F1520;
+    --bg-dark-five: #1A1A27;
+
+    --heading-font-one: Playfair Display, serif;
+    --heading-font-two: Noto Sans JP, sans-serif;
+    --body-font: Roboto, sans-serif;
+}
+/*---------------------------
+    Error
+---------------------------*/
+.error-area-wrapper .title {
+    font-family: var(--heading-font-two);
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.error-area-wrapper .img-box {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.error-area-wrapper .img-box .logo {
+    position: relative;
+    -webkit-animation-name: logo404;
+    animation-name: logo404;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+@-webkit-keyframes logo404 {
+    from {
+        top: 60px;
+    }
+    to {
+        top: 0;
+    }
+}
+@keyframes logo404 {
+    from {
+        top: 60px;
+    }
+    to {
+        top: 0;
+    }
+}
+.error-area-wrapper .content {
+    text-align: center;
+    margin-top: 34px;
+}
+.error-area-wrapper .content .btn-wrapper {
+    margin-top: 40px;
+}
+
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+.btn-wrapper {
+    display: block;
+}
+.btn-wrapper .btn-default {
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid var(--main-color-one);
+    background-color: var(--main-color-one);
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 30px 11px;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    line-height: 20px;
+}
+.btn-wrapper .btn-default:hover {
+    background-color: transparent;
+    color: var(--main-color-one);
+}
+.btn-wrapper .btn-default.btn-color-02 {
+    color: #fff;
+}
+.btn-wrapper .btn-default.btn-color-02:hover {
+    color: #1A1A27;
+    background-color: var(--main-color-one);
+}
+.btn-wrapper .btn-default.transparent-btn {
+    background-color: transparent;
+    border-color: var(--main-color-one);
+    color: var(--main-color-one);
+}
+.btn-wrapper .btn-default.transparent-btn:hover {
+    background-color: var(--main-color-one);
+    border-color: var(--main-color-one);
+    color: #fff;
+}
+.btn-wrapper .btn-default.transparent-btn-dark {
+    background-color: transparent;
+    border-color: var(--paragraph-color);
+    color: var(--paragraph-color);
+}
+.btn-wrapper .btn-default.transparent-btn-dark:hover {
+    background-color: var(--main-color-one);
+    border-color: var(--main-color-one);
+    color: #fff;
+}
+.btn-wrapper .btn-default.transparent-btn-1-reverse {
+    background-color: var(--main-color-one);
+    border-color: var(--main-color-one);
+    color: #fff;
+}
+.btn-wrapper .btn-default.transparent-btn-1-reverse:hover {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.btn-wrapper .btn-default.transparent-btn-2 {
+    background-color: transparent;
+    border-color: #DDDDDD;
+    color: #999999;
+}
+.btn-wrapper .btn-default.transparent-btn-2 .icon {
+    display: inline-block;
+    padding-left: 8px;
+}
+.btn-wrapper .btn-default.transparent-btn-2:hover {
+    background-color: var(--main-color-one);
+    border-color: var(--main-color-one);
+    color: #fff;
+}
+.btn-wrapper .btn-default.btn-rounded {
+    border-radius: 25px;
+}
+.btn-wrapper .btn-default.semi-bold {
+    font-weight: 600;
+}
+.btn-wrapper .btn-default.ul-btn {
+    color: #666666;
+    margin-bottom: 10px;
+    background-color: transparent;
+    padding: 0px 0px 2px;
+    border: none;
+    border-bottom: 1px solid #666666;
+}
+.btn-wrapper .btn-default.ul-btn:hover {
+    border-color: var(--main-color-one);
+    color: var(--main-color-one);
+}

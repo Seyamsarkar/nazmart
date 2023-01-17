@@ -1,0 +1,35 @@
+/* single demo item */
+
+.single-demo-item{
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 0;
+
+    img{
+        border-radius: 15px;
+        box-shadow: 0 0 40px 0 rgba(0,0,0,0.05);
+    }
+    &:hover{
+        .viewmore{
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+    .viewmore{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: all 300ms;
+        transform: translate(-50%,  -50%);
+        visibility: hidden;
+        opacity: 0;
+        background-color: var(--secondary-color);
+        color: #fff;
+        &:hover{
+            background-color: var(--main-color-one);
+            color: #fff;
+        }
+    }
+}

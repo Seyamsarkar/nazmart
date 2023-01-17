@@ -1,0 +1,59 @@
+/* single info item  */
+.info-list-wrap{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .single-info-item{
+        display: flex;
+        + .single-info-item{
+            margin-top: 40px;
+        }
+        .icon{
+            font-size: 60px;
+            line-height: 50px;
+            margin-right: 20px;
+            position: relative;
+            z-index: 0;
+            color: #2D9CDB;
+            &.style-1{
+                color: #F26440;
+               &:after{
+                   background-color: #f7e5dc;
+               }
+            }
+            &.style-2{
+                color: #F2994A;
+                &:after{
+                    background-color: #fff0c9;
+                }
+            }
+            &:after{
+                position: absolute;
+                left: -10px;
+                top: 0;
+                background-color: #dbeff7;
+                z-index: -1;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                content: '';
+            }
+        }
+        .content-wrap{
+            .details,span{
+                display: block;
+                margin-bottom: 10px;
+            }
+            .title{
+                font-size: 24px;
+                line-height: 35px;
+                font-weight: 500;
+                color: #395966;
+                text-transform: capitalize;
+            }
+            p{
+
+            }
+        }
+    }
+}

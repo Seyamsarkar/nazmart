@@ -1,0 +1,21 @@
+.single-why-us-item{
+    box-shadow: 0 4px 60px 0 rgb(0 0 0 / 4%);
+    text-align: center;
+    padding: 50px;
+    border-radius: 15px;
+
+    .icon{
+        margin-bottom: 25px;
+    }
+    .content-wrap{
+        .title{
+            font-size: 28px;
+            line-height: 38px;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}

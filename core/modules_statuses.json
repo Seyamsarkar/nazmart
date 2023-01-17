@@ -1,0 +1,19 @@
+{
+    "Blog": true,
+    "Service": true,
+    "Model": true,
+    "ServiceCategory": true,
+    "SupportTicket": true,
+    "Product": true,
+    "TaxModule": true,
+    "CountryManage": true,
+    "Attributes": true,
+    "Badge": true,
+    "Campaign": true,
+    "Inventory": true,
+    "ThemeManage": true,
+    "ShippingModule": true,
+    "CouponManage": true,
+    "Wallet": true,
+    "RefundModule": true
+}

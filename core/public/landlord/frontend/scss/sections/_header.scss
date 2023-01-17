@@ -1,0 +1,147 @@
+/* header area */
+
+.header-area{
+    position: relative;
+    padding: 150px 0;
+    .shape{
+        position: absolute;
+        left: 0;
+        top: 0;
+        &.n_1{
+            left: 8%;
+            top: 20px;
+            -webkit-animation-name: des;
+            animation-name: des;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+        &.n_2{
+            right: 0;
+            left: auto;
+            top: 15%;
+            -webkit-animation-name: des2;
+            animation-name: des2;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+        &.n_3{
+            top: auto;
+            bottom: 0;
+            left: auto;
+            right: 12%;
+            -webkit-animation-name: des;
+            animation-name: des;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+        &.n_4{
+            top: auto;
+            bottom: 0;
+            -webkit-animation-name: des2;
+            animation-name: des2;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+    }
+    .right-image{
+        position: absolute;
+        right: 10%;
+        top: auto;
+    }
+    .header-inner{
+        .title{
+            font-size: 73px;
+            line-height: 90px;
+            font-weight: 500;
+            text-transform: capitalize;
+            letter-spacing: -2px;
+            .color{
+                display: inline-block;
+                background-color: var(--main-color-one);
+                padding: 0 15px;
+            }
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 20px;
+            line-height: 35px;
+            color: var(--paragraph-color);
+            max-width: calc(100% - 180px);
+        }
+        .btn-wrapper{
+            margin-top: 40px;
+            .btn-default{
+                padding: 15px 30px;
+                font-weight: 600;
+                i{
+                    padding-left: 4px;
+                    transform: rotateZ(45deg);
+                }
+            }
+        }
+    }
+}
+@-webkit-keyframes des {
+    from {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    to {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+}
+@keyframes des {
+    from {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    to {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+}
+@-webkit-keyframes des2 {
+    from {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    to {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+}
+@keyframes des2 {
+    from {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    to {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+}

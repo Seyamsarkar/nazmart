@@ -1,0 +1,85 @@
+/* testimonial item  */
+.testimonial-slider-wrap{
+    .owl-dots{
+        position: absolute;
+        left: 50%;
+        bottom: 120px;
+        button{
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            background-color: #cfcbc1 !important;
+            +button{
+                margin-left: 10px;
+            }
+            &.active{
+                background-color: var(--main-color-one) !important;
+                color: #fff;
+            }
+        }
+    }
+    &:hover{
+        .owl-nav{
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+    .owl-nav{
+        visibility: hidden;
+        opacity: 0;
+        transition: all 300ms;
+        button{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            position: absolute;
+            left: 80px;
+            top: 50%;
+            transform: translateY(-50%);
+            box-shadow: 0 4px 30px 0 rgb(0 0 0 / 10%);
+            background-color: #fff !important;
+            &:hover{
+                color: var(--heading-color) !important;
+                background-color: var(--main-color-one) !important;
+            }
+            &.owl-next{
+                left: auto;
+                right: 80px;
+            }
+        }
+    }
+}
+.single-testimonial-item{
+    text-align: center;
+    box-shadow: 0 4px 60px 0 rgb(0 0 0 / 10%);
+    margin: 100px;
+    border-radius: 15px;
+    padding: 0 60px 80px 60px;
+    .thumb{
+        margin-bottom: 30px;
+        img {
+            width: 80px !important;
+            display: inline-block !important;
+            margin-top: -40px;
+        }
+    }
+    .auth-details{
+        margin-bottom: 30px;
+        .name{
+            font-size: 26px;
+            line-height: 40px;
+            font-weight: 600;
+        }
+        .designation{
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+    .description{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}

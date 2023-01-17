@@ -1,0 +1,31 @@
+/* import main scss */
+@import "main/mixins";
+@import "main/variables";
+@import "main/global";
+
+
+
+/* import section scss */
+@import "sections/navbar";
+@import "sections/topbar";
+@import "sections/header";
+@import "sections/whyus";
+@import "sections/testimonial";
+@import "sections/blog";
+@import "sections/footer";
+@import "sections/breadcrumb";
+
+/* components */
+@import "components/button";
+@import "components/why_chose_us";
+@import "components/section_title";
+@import "components/info_item";
+@import "components/demo_item";
+@import "components/price_plan";
+@import "components/contact_form";
+@import "components/faq";
+@import "components/brandlogo";
+
+
+/* landing page data */
+
